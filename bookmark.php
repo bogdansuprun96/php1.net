@@ -1,11 +1,10 @@
-<?php
+<span>
+phpinfo();
 
-//phpinfo();
+echo "Hello World!";
+print "Hello World!";
 
-//echo "Hello World!";
-//print "Hello World!";
-
-//echo strftime('%d-%B-%Y, %A');
+echo strftime('%d-%B-%Y, %A');
 
 
     /*
@@ -15,3 +14,18 @@
      * Имя переменной чуствительно к регистру
      */
 
+unset($var); - видаляє змінну
+
+
+<?php $age = 21; echo $age; ?>
+
+<?php
+define('USER_NAME', 'Vasya');
+echo USER_NAME;
+
+const TWO_HUNDRED = 200;
+iconv('windows-1251', 'UTF-8', $crakozyabru);
+?>
+    <hr>
+
+</span>
